@@ -30,7 +30,6 @@ I used Nmap to identify open ports, running services, and OS information on targ
 - TCP SYN scan (`-sS`)
 - Full port scan (`-p-`)
 - OS and service detection (`-A`)
-- NSE script usage
 
 ---
 
@@ -55,9 +54,9 @@ Captured and analyzed traffic from insecure web sessions.
 
 **Key Takeaways:**
 
-- Observed plaintext HTTP POST credentials
 - Analyzed session cookies and headers
 - Reinforced the importance of HTTPS
+- Learned how to filter packets by criteria
 
 ---
 
@@ -65,25 +64,7 @@ Captured and analyzed traffic from insecure web sessions.
 
 I also used this Kali Linux machine as the **attacker host** in my separate [Hacking Tools](#) project.
 
-Using Metasploit, I exfiltrated keystrokes from my MacBook (target) to my Kali VM via a custom keylogger payload. This exercise helped me understand real-world post-exploitation techniques in a controlled lab environment.
-
----
-
-## 🧠 Lessons Learned
-
-- Enumeration is the foundation of any attack strategy
-- Hidden directories often expose serious misconfigurations
-- Packet sniffing reveals the dangers of insecure protocols
-- Metasploit provides powerful capabilities for post-exploitation
-
----
-
-## ✅ Next Steps
-
-- Add IDS/IPS tools like **Snort** or **Suricata**
-- Set up a Windows-based target for Red Team practice
-- Automate scans and reports with Bash or Python
-- Document defensive tooling in a Blue Team counterpart repo
+Using Metasploit, I exfiltrated keystrokes from my MacBook (victim) to my Kali VM (attacker). This exercise helped me understand real-world post-exploitation techniques in a controlled lab environment.
 
 ---
 
