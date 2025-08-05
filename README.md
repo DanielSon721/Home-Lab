@@ -60,7 +60,7 @@ Captured and analyzed traffic from insecure web sessions.
 
 ## 💻 Metasploit & Keylogger Integration
 
-I also used this Kali Linux machine as the **attacker host** in my separate [Hacking Tools](#) project.
+I also used this Kali Linux machine as the **attacker host** in my separate project, [Hacking Tools](https://github.com/DanielSon721/Hacking-Tools).
 
 Using Metasploit, I exfiltrated keystrokes from my MacBook (victim) to my Kali VM (attacker). This exercise helped me understand real-world post-exploitation techniques in a controlled lab environment.
 
