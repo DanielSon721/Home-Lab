@@ -15,8 +15,6 @@ I installed **Kali Linux (Debian 12.x 64-bit Arm)** on my MacBook using **VMware
   - 2048 MB memory
   - Shared internet with host (NAT)
 
-The VM serves as my **attacker machine** for various cybersecurity experiments.
-
 ---
 
 ## 🧰 Tools Explored
