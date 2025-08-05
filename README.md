@@ -1,6 +1,6 @@
-# 🧪 Kali Linux Home Lab (No-Code)
+# 🧪 Kali Linux Home Lab Documentation
 
-This repository documents my personal home lab setup, where I experimented with offensive security tools on a Kali Linux virtual machine. Although there is no source code, this README captures the technical learning and exercises performed.
+This repository documents my personal home lab setup, where I experimented with offensive security tools on a Kali Linux virtual machine.
 
 ---
 
