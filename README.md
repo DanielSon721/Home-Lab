@@ -54,7 +54,7 @@ Captured and analyzed traffic from insecure web sessions.
 
 - Analyzed session cookies and headers
 - Reinforced the importance of HTTPS
-- Learned to filter packets by criteria
+- Learned how to filter packets by criteria
 
 ---
 
